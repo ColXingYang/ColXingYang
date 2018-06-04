@@ -29,6 +29,7 @@ GameObject:
 {% endhighlight %}
   
 ##一个YAML场景文件例子
+
 一个简单但是完整的场景如下，这个场景仅包含一个相机和一个Cube。YAML场景文件必须以这两行开头
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
@@ -271,6 +272,7 @@ HierarchyState:
   {% endhighlight %}
 
 ##YAML Class ID Reference
+
 YAML文件格式公用的class ID如下所示，class id 以数字顺序排列，类名以字母序列排序。注意一些范围的数字被故意省略了，这些可能表示类已经被从API中移除或者为了将来使用而保留了。脚本中定义的类（包括MonoBehaviour）都使用class id 114。
 {% highlight ruby %}
 Classes Ordered by ID Number
